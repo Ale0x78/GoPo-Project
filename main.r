@@ -1,0 +1,5 @@
+rm(list=ls())
+setwd("/Users/alex/Desktop/GoPo/")
+data <- read.csv('data.csv')
+summary(data)
+plot(data$Cont, data$Votes, main="Dark Money contributions for a candidate v. Candidate’s pro business votes (%) as reported by the Chamber of Commerce",xlab="Dark Money contributions in $")
