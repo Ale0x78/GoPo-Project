@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import csv
 from time import sleep
 URL = "https://www.opensecrets.org/outsidespending/nonprof_cands.php"
-open_secret_urls = ["https://www.opensecrets.org/outsidespending/nonprof_cands.php?cycle=2014","https://www.opensecrets.org/outsidespending/nonprof_cands.php","https://www.opensecrets.org/outsidespending/nonprof_cands.php?cycle=2012"]
+open_secret_urls = ["https://www.opensecrets.org/outsidespending/nonprof_cands.php?cycle=2014","https://www.opensecrets.org/outsidespending/nonprof_cands.php?cycle=2016","https://www.opensecrets.org/outsidespending/nonprof_cands.php?cycle=2012"]
 CoC_url = "https://www.uschamber.com/how-they-voted/2016"
 # Url is https://www.opensecrets.org/outsidespending/nonprof_cands.php
 DEBUG = True
